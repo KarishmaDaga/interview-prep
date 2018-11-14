@@ -37,7 +37,9 @@ class Solution:
             # iterate through nums. if value you are at is Y = target - x, 
             for i in range(len(nums)):
                 complement = target - nums[i]
+                # check if complement exists in hash map
                 if complement in mapping.values():
+                    # return indices of complement Y and X
                     return mapping.get(complement), i
                 else:
                     # not in mapping. add key-value pair (value, index)

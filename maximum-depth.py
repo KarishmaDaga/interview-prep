@@ -17,9 +17,7 @@ class Solution:
         I can perform inorder traversal and keep counter of depth.
         Since BT has at most two children, I can have depth of left 
         subtree and right subtree counters and compare them at the end.
-        """
-        depth = 0
-        
+        """        
         if root is None:
             return 0
         else:

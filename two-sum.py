@@ -18,4 +18,30 @@ class Solution:
         :type target: int
         :rtype: List[int]
         
+        I'm looking for indices of X, Y such that X + Y = target. If I have X, then I am searching for Y = target - X. 
+        The brute force solutions would be two iterate through the list to find X, then find Y = target - X. 
+        I could improve the efficiency by storing the values in nums and their indices in a hashmap.
+        
+        mapping: values -> indices
+        base case: nums = []
+        note: Y != X
+        
+        time complexity: O(n) to iterate through nums. O(n) to create hash map.
+        """
+        if nums == []:
+            return nums
+        else:
+            # create hashmap
+            mapping = {}
+            
+            # iterate through nums. if value you are at is Y = target - x, 
+            for i in range(len(nums)):
+                complement = target - nums[i]
+                if complement in mapping.values():
+                    return mapping.get(complement), i
+                else:
+                    # not in mapping. add key-value pair (value, index)
+                    mapping[nums[i]] = i
+        
+        
         

@@ -7,15 +7,15 @@ break the problem into two portions:
 - when you're _expanding the window_ and 
 - when you're _shrinking the window_.
 
-easy
-- [Maximum Sum Subarray of Size K](max-sum-subarray-of-size-k.py)
-- [Smallest Subarray with a given sum](smallest-subarray-with-given-sum.py)
+🥺 easy
+- [maximum sum subarray of size k](max-sum-subarray-of-size-k.py)
+- [smallest subarray with a given sum](smallest-subarray-with-given-sum.py)
 
-medium
-- [Longest substring with K distinct characters]()
-- [Fruits into Baskets]()
+😪 medium
+- [longest substring with k distinct characters]()
+- [fruits into baskets]()
 
-hard
-- [No-repeat Substring]()
-- [Longest Substring with Same Letters after Replacement]()
-- [Longest Subarray with Ones after Replacement]()
+🤯 hard
+- [no-repeat substring]()
+- [longest substring with same letters after replacement]()
+- [longest subarray with ones after replacement]()

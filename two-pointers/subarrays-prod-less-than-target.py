@@ -26,9 +26,10 @@ Idea
 values 
 - keep track of current subarray product
 - two pointers, sliding window vibe
-- when product >= target, append [left, right-1]
-- restart by incrementing left pointer and 
-setting right = left + 1
+- when product < target, append arr[left:right]
+- shrink window when product >= target
+- expand window and grow subarray list while
+product is less than target
 - don't think my idea for the subarray list is 
 the best/correct
 '''

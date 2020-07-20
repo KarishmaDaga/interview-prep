@@ -1,11 +1,11 @@
 '''
-To process the tree level-by-level, we need to start
+To process the tree level-by-level, we need to 
 traverse all nodes in each level before moving onto 
 the next level.
 
 We can use a queue to keep track of the nodes to process
-because as we can process the nodes in order from left
-to right. 
+because as we can process the nodes in order (from left
+to right). 
 
 The steps of the algorithm can be broken into the following:
 1. Start by pushing the root node to the queue

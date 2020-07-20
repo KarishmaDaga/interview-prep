@@ -18,6 +18,12 @@ Other options include:
 result object
 - other (much slower) option is curr_level + result 
 which is slower because '+' creates a new object
+
+Complexity
+- Time: O(n) where n is the number of nodes in the tree
+- Space: O(n) as the result deque contains all nodes in
+the tree and O(m) for the queue object where m is the max
+number of nodes in a level in the tree
 '''
 from collections import deque
 class TreeNode(self, val):
